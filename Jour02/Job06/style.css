@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+}
+
+.plateforme {
+    background-color: #007bff;
+    color: #fff;
+}
