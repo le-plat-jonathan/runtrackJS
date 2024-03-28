@@ -1,20 +1,15 @@
 const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
-    let konamiIndex = 0;
+    let konamiIndex = [];
 
-    function konamiCheck(event) {
-        if (event.key.toLowerCase() === konamiCode[konamiIndex]) {
-            konamiIndex++;
-            if (konamiIndex === konamiCode.length) {
-                applyPlateformeStyle();
-                konamiIndex = 0;
-            }
-        } else {
-            konamiIndex = 0;
-        }
-    }
+   document.addEventListener("keydown", (e) => {
 
-    function applyPlateformeStyle() {
+    konamiIndex.push(e.key);
+    konamiIndex = konamiIndex.slice(-konamiCode.length);
+
+    if (konamiIndex.join(``).toLowerCase() === konamiCode.join(``).toLowerCase()) {
         document.body.classList.add('plateforme');
-    }
+        document.querySelector('h1').classList.add('title');
+        document.querySelector('p').classList.add('text');
+      }
 
-    document.addEventListener('keydown', konamiCheck);
+   });

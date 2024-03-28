@@ -6,6 +6,13 @@ body {
 }
 
 .plateforme {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #094788;
+}
+
+.title {
+    color: #dba50f;
+}
+
+.text {
+    color: white;
 }
