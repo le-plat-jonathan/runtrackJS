@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RuntrackJS Jour04 Job03</title>
+</head>
+<body>
+<form id="filterForm">
+    <label for="id">ID :</label>
+    <input type="text" id="id" name="id">
+    <br>
+    <label for="nom">Nom :</label>
+    <input type="text" id="name" name="name">
+    <br>
+    <label for="type">Type :</label>
+    <select id="type" name="type">
+        <option value="">-- Sélectionner --</option>
+        <option value="Grass">Grass</option>
+        <option value="Ground">Ground</option>
+        <option value="Fire">Fire</option>
+    </select>
+    <br>
+    <input id="btn" type="button" value="Filter">
+</form>
+
+<div id="results"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

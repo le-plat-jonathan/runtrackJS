@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RuntrackJS Jour03 Job02</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
+    <title>RuntrackJS Jour03 Job03</title>
 </head>
+
 <body>
-  <button id="restart-btn">Recommencer</button>
-  <div id="puzzle-container">
-    <div class="tile" id="tile1"><img src="/Jour03/Job03/images/logo1.PNG" alt="1"></div>
-    <div class="tile" id="tile2"><img src="/Jour03/Job03/images/logo2.PNG" alt="2"></div>
-    <div class="tile" id="tile3"><img src="/Jour03/Job03/images/logo3.PNG" alt="3"></div>
-    <div class="tile" id="tile4"><img src="/Jour03/Job03/images/logo4.PNG" alt="4"></div>
-    <div class="tile" id="tile5"><img src="/Jour03/Job03/images/logo5.PNG" alt="5"></div>
-    <div class="tile" id="tile6"><img src="/Jour03/Job03/images/logo6.PNG" alt="6"></div>
-    <div class="tile" id="tile7"><img src="/Jour03/Job03/images/logo7.PNG" alt="7"></div>
-    <div class="tile" id="tile8"><img src="/Jour03/Job03/images/logo8.PNG" alt="8"></div>
-    <div class="empty" id="empty"></div>
-</div>
-  <script src="script.js"></script>
+    <div class="reference"><img src="/Jour03/Job03/images/originale.jpg"></div>
+    <div id="taquin">
+        <div class="tuile" data-tuile="1"><img src="/Jour03/Job03/images/1.jpg"></div>
+        <div class="tuile" data-tuile="2"><img src="/Jour03/Job03/images/2.jpg"></div>
+        <div class="tuile" data-tuile="3"><img src="/Jour03/Job03/images/3.jpg"></div>
+        <div class="tuile" data-tuile="4"><img src="/Jour03/Job03/images/4.jpg"></div>
+        <div class="tuile" data-tuile="5"><img src="/Jour03/Job03/images/5.jpg"></div>
+        <div class="tuile" data-tuile="6"><img src="/Jour03/Job03/images/6.jpg"></div>
+        <div class="tuile" data-tuile="7"><img src="/Jour03/Job03/images/7.jpg"></div>
+        <div class="tuile" data-tuile="8"><img src="/Jour03/Job03/images/8.jpg"></div>
+        <div class="tuile vide"></div>
+    </div>
+    <button id="recommencer">Restart</button>
+    <div id="message"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
