@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form id="formulaire" action="#" method="post">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+            <span id="erreur_nom" class="erreur"></span>
+            
+            <label for="prenom">Prénom:</label>
+            <input type="text" id="prenom" name="prenom" required>
+            <span id="erreur_prenom" class="erreur"></span>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="erreur_email" class="erreur"></span>
+            
+            <label for="password">Mot de passe:</label>
+            <input type="password" id="password" name="password" required>
+            <span id="erreur_password" class="erreur"></span>
+
+            <div class="checkboxPassword" >
+                <label for="showPassword">Afficher le mot de passe </label>
+                <input type="checkbox" id="showPassword">
+            </div> 
+
+            <label for="adresse">Adresse:</label>
+            <input type="text" id="adresse" name="adresse" required>
+            <span id="erreur_adresse" class="erreur"></span>
+            
+            <label for="codepostal">Code postal:</label>
+            <input type="number" id="codepostal" name="codepostal" required>
+            <span id="erreur_codepostal" class="erreur"></span>
+            
+            <input type="submit" value="Envoyer">
+
+            <a href="logIn.html" >Vous avez déjà un compte? Conectez-vous !</a>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

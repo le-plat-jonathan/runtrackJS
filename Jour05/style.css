@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+form {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 2em;
+    border-radius: 2em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 2em;
+    padding: 0.5em;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+a:visited {
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+.remindMeCheckbox {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5em;
+    gap: 10px;
+}
+
+.checkboxPassword {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+    gap: 1em;
+}
+
+span {
+    text-align: center;
+}
