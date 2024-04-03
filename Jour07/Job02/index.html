@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RuntrackJS Jour07 Job02</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Inscription</a></li>
+                <li><a href="index.html">Connexion</a></li>
+                <li><a href="index.html">Rechercher</a></li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <form action="#" method="post">
+            <div>
+                <label for="civilite">Civilité :</label><br>
+                <input type="radio" id="civilite_m" name="civilite" value="Monsieur">
+                <label for="civilite_m">Monsieur</label>
+                <input type="radio" id="civilite_mme" name="civilite" value="Madame">
+                <label for="civilite_mme">Madame</label>
+            </div>
+            <div>
+                <label for="firstname">Prénom :</label><br>
+                <input type="text" id="firstname" name="firstname">
+            </div>
+            <div>
+                <label for="lastname">Nom :</label><br>
+                <input type="text" id="lastname" name="lastname">
+            </div>
+            <div>
+                <label for="adress">Adresse postale :</label><br>
+                <input type="text" id="adress" name="adress">
+            </div>
+            <div>
+                <label for="email">Adresse Email :</label><br>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="password">Mot de Passe :</label><br>
+                <input type="password" id="password" name="password">
+            </div>
+            <div>
+                <label for="confirm_password">Confirmer le Mot de Passe :</label><br>
+                <input type="password" id="confirm_password" name="confirm_password">
+            </div>
+            <div>
+                <label>Passions :</label><br>
+                <input type="checkbox" id="IT" name="passions[]" value="informatique">
+                <label for="IT">Informatique</label>
+                <input type="checkbox" id="travel" name="passions[]" value="voyages">
+                <label for="travel">Voyages</label>
+                <input type="checkbox" id="sport" name="passions[]" value="sport">
+                <label for="sport">Sport</label>
+                <input type="checkbox" id="reading" name="passions[]" value="lecture">
+                <label for="reading">Lecture</label>
+            </div>
+            <div>
+                <input type="submit" value="Valider">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="index.html">Inscription</a></li>
+              <li><a href="index.html">Connexion</a></li>
+              <li><a href="index.html">Rechercher</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
+</body>
+</html>

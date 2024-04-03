@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RuntrackJS Jour07 Job02</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Inscription</a></li>
+                <li><a href="index.html">Connexion</a></li>
+                <li><a href="index.html">Rechercher</a></li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+<main>
+    <section>
+        <div class="row">
+            <label for="">Civitilé :</label>
+            <p>
+                <label>
+                    <input name="group1" type="radio"/>
+                    <span>Monsieur</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="group1" type="radio"/>
+                    <span>Madame</span>
+                </label>
+            </p>
+        </div>
+        <div class="row">
+            <form class="col s5">
+              <div class="row">
+                <div class="input-field col s5">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name"><i class="material-icons">contacts</i> Prénom</label>
+                </div>
+                <div class="input-field col s5">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name"><i class="material-icons">contacts</i> Nom</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s5">
+                    <input type="text" class="validate">
+                    <label for="disabled"><i class="material-icons">house</i> Adresse postale</label>
+                </div>
+                <div class="input-field col s5">
+                    <input id="email" type="email" class="validate">
+                    <label for="email"><i class="material-icons">mail</i> Email</label>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s5">
+                    <input id="password" type="password" class="validate">
+                    <label for="password"><i class="material-icons">lock</i> Mot de passe</label>
+                </div>
+                <div class="input-field col s5">
+                    <input id="confirm_password" type="password" class="validate">
+                    <label for="confirm_password"><i class="material-icons">lock</i> Confirmer le mot de passe</label>
+                </div>
+              </div>
+              <div style="display: flex; flex-direction: row; gap: 1em;">
+                <p>
+                    <label>
+                      <input type="checkbox" />
+                      <span>Informatique</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                      <input type="checkbox" />
+                      <span>Voyage</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                      <input type="checkbox" />
+                      <span>Sport</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                      <input type="checkbox" />
+                      <span>Lecture</span>
+                    </label>
+                </p>
+              </div>
+            </form>
+          </div>
+    </section>
+</main>
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer</h5>
+          <p class="grey-text text-lighten-4">Ceci est un footer</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Liens</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="index.html">Accueil</a></li>
+            <li><a class="grey-text text-lighten-3" href="index.html">Inscription</a></li>
+            <li><a class="grey-text text-lighten-3" href="index.html">Connexion</a></li>
+            <li><a class="grey-text text-lighten-3" href="index.html">Rechercher</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
+</body>
+</html>
