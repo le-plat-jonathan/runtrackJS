@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RuntrackJS Jour08 Job02</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  <header class="bg-gray-800 text-white body-font shadow w-full">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <span class="ml-3 text-xl">Tailwind</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a href="index.html" class="mr-5 hover:text-gray-300">Accueil</a>
+        <a href="index.html#inscription" class="mr-5 hover:text-gray-300">Inscription</a>
+        <a href="index.html#connexion" class="mr-5 hover:text-gray-300">Connexion</a>
+        <a href="index.html#rechercher" class="mr-5 hover:text-gray-300">Rechercher</a>
+      </nav>
+    </div>
+  </header>
+      <div class="max-w-md mx-auto mt-10 mb-20">
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+          <div class="mb-4">
+            <span class="text-gray-700">Civilité</span>
+            <div class="mt-2">
+              <label class="inline-flex items-center">
+                <input type="radio" class="form-radio" name="civilite" value="monsieur">
+                <span class="ml-2">Monsieur</span>
+              </label>
+              <label class="inline-flex items-center ml-6">
+                <input type="radio" class="form-radio" name="civilite" value="madame">
+                <span class="ml-2">Madame</span>
+              </label>
+            </div>
+          </div>
+      
+          <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="prenom">
+              Prénom
+            </label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="prenom" type="text" placeholder="Prénom">
+          </div>
+      
+          <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="nom">
+              Nom
+            </label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nom" type="text" placeholder="Nom">
+          </div>
+      
+          <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="adresse">
+              Adresse
+            </label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="adresse" type="text" placeholder="Adresse">
+          </div>
+      
+          <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+              Adresse email
+            </label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="exemple@domaine.com">
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+              Mot de passe
+            </label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************">
+          </div>
+      
+          <div class="mb-6">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="confirm-password">
+              Validation du mot de passe
+            </label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="confirm-password" type="password" placeholder="******************">
+          </div>
+      
+          <div class="mb-6">
+            <span class="text-gray-700">Passions</span>
+            <div class="mt-2">
+              <label class="flex items-center">
+                <input type="checkbox" class="form-checkbox" name="passions" value="informatique">
+                <span class="ml-2">Informatique</span>
+              </label>
+              <label class="flex items-center mt-2">
+                <input type="checkbox" class="form-checkbox" name="passions" value="voyages">
+                <span class="ml-2">Voyages</span>
+              </label>
+              <label class="flex items-center mt-2">
+                <input type="checkbox" class="form-checkbox" name="passions" value="sport">
+                <span class="ml-2">Sport</span>
+              </label>
+              <label class="flex items-center mt-2">
+                <input type="checkbox" class="form-checkbox" name="passions" value="lecture">
+                <span class="ml-2">Lecture</span>
+              </label>
+            </div>
+          </div>
+      
+          <div class="flex items-center justify-between">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+              Valider
+            </button>
+          </div>
+        </form>
+      </div>
+<footer class="">
+  <div class="">
+    <span class="">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+  </span>
+  <ul class="">
+      <li>
+          <a href="#" class="">About</a>
+      </li>
+      <li>
+          <a href="#" class="">Privacy Policy</a>
+      </li>
+      <li>
+          <a href="#" class="">Licensing</a>
+      </li>
+      <li>
+          <a href="#" class="">Contact</a>
+      </li>
+  </ul>
+  </div>
+</footer>
+</body>
+</html>
