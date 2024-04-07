@@ -1,0 +1,74 @@
+{
+    "users" : [
+        {
+            "nom" : "LE PLAT",
+            "prenom" : "jonathan",
+            "email" : "jonathan.le-plat@laplateforme.io",
+            "password" : "A.1234",
+            "admin" : true
+        },
+        {
+            "nom" : "CHERKANI",
+            "prenom" : "adam",
+            "email" : "adam-cherkani@laplateforme.io",
+            "password" : "A.1234",
+            "admin" : false
+        },
+        {
+            "nom" : "CLERC",
+            "prenom" : "arthur",
+            "email" : "arthur.clerc@laplateforme.io",
+            "password" : "A.1234",
+            "admin" : false
+        },
+        {
+            "nom" : "DURANT",
+            "prenom" : "mathias",
+            "email" : "mathias.durant@laplateforme.io",
+            "password" : "A.1234",
+            "admin" : false
+        },
+        {
+            "nom" : "FRANCO",
+            "prenom" : "beca",
+            "email" : "beca.franco@laplateforme.io",
+            "password" : "A.1234",
+            "admin" : false
+        },
+        {
+            "nom" : "M'BAPPE",
+            "prenom" : "kylian",
+            "email" : "beca.franco@laplateforme.io",
+            "password" : "A.1234",
+            "admin" : false
+        },
+        {
+            "nom": "DUPONT",
+            "prenom": "jean",
+            "email": "jean.dupont@laplateforme.io",
+            "password": "A.1234",
+            "admin": false
+        },
+        {
+            "nom": "DURAND",
+            "prenom": "marie",
+            "email": "marie.durand@laplateforme.io",
+            "password": "A.1234",
+            "admin": false
+        },
+        {
+            "nom": "LEFEBVRE",
+            "prenom": "antoine",
+            "email": "antoine.lefebvre@laplateforme.io",
+            "password": "A.1234",
+            "admin": false
+        },
+        {
+            "nom": "MOREAU",
+            "prenom": "camille",
+            "email": "camille.moreau@laplateforme.io",
+            "password": "A.1234",
+            "admin": false
+        }
+    ]
+}
